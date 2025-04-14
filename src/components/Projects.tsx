@@ -4,67 +4,51 @@ import { Button } from "@/components/ui/button";
 
 const Projects = () => {
   const projects = [
-    {
-      title: "AI-Powered SoM System",
-      description: "Integrated AI system using NVIDIA API for parallel incident reporting, natural language processing, and collaborative response coordination.",
-      tags: ["NVIDIA API", "Computer Vision", "NLP", "AI"],
-      links: {
-        github: "https://github.com/sohamyedgaonkar/ai-som-system",
-        demo: "https://ai-som-demo.example.com",
-        details: "#",
-      }
-    },
-    {
-      title: "Healthcare Analytics Learning Platform",
-      description: "Machine learning platform for personalized education based on user behavior with over 1 million learning interactions from 5,000+ users.",
-      tags: ["TensorFlow", "Keras", "React", "MongoDB"],
-      links: {
-        github: "https://github.com/sohamyedgaonkar/healthcare-analytics",
-        demo: "https://health-analytics-demo.example.com",
-        details: "#",
-      }
-    },
-    {
-      title: "Autonomous Crowd Monitoring System",
-      description: "Solution for monitoring crowd with over 7 dense environments, achieving 93% accuracy in object detection using computer vision algorithms.",
-      tags: ["Computer Vision", "ML", "Object Detection"],
-      links: {
-        github: "https://github.com/sohamyedgaonkar/crowd-monitoring",
-        demo: "https://crowd-monitor-demo.example.com",
-        details: "#",
-      }
-    },
-    {
-      title: "Financial Data Processing Pipeline",
-      description: "Complex data pipelines using TensorFlow, PyTorch and GANS-based transformer models to find irregularities in financial data.",
-      tags: ["TensorFlow", "PyTorch", "GANs", "Finance"],
-      links: {
-        github: "https://github.com/sohamyedgaonkar/financial-pipeline",
-        demo: "https://finance-pipeline-demo.example.com",
-        details: "#",
-      }
-    },
-    {
-      title: "Real-time Incident Monitoring System",
-      description: "System using image processing and OCR algorithms for event location with heatmap visualization and reporting.",
-      tags: ["Image Processing", "OCR", "React", "MongoDB"],
-      links: {
-        github: "https://github.com/sohamyedgaonkar/incident-monitor",
-        demo: "https://incident-monitor-demo.example.com",
-        details: "#",
-      }
-    },
-    {
-      title: "Automated Payment Workflow System",
-      description: "Optimized automated workflows for online payments, improving operational efficiency by 40% with secure transaction processing.",
-      tags: ["Automation", "Payments", "Workflow"],
-      links: {
-        github: "https://github.com/sohamyedgaonkar/payment-workflow",
-        demo: "https://payment-workflow-demo.example.com",
-        details: "#",
-      }
-    },
-  ];
+  {
+    "title": "Women's Safety Incident Reporting System",
+    "description": "Developed a full-stack system with real-time reporting, OSM integration, live CCTV monitoring (Computer Vision), and an AI-powered RAG using NVIDIA API for guided incident reporting and analysis.",
+    "tags": [
+      "React",
+      "TypeScript",
+      "AI-agents",
+      "Supabase",
+      "Computer Vision",
+      "Tailwind CSS",
+      "RAG",
+      "PostgreSQL",
+      "NVIDIA API",
+      "NLP",
+      "OSM"
+    ],
+    "links": {
+      "github": "https://github.com/sohamyedgaonkar/womens-safety-system", // Replace with actual link if available
+      "demo": "#", // Replace with actual link if available
+      "details": "#" // Replace with link to project page/blog if available
+    }
+  },
+  {
+    "title": "CogniLearn - Adaptive Learning System",
+    "description": "AI-driven adaptive learning platform using RAG (Hugging Face/Pinecone) for personalized education, context-aware recommendations (TensorFlow/Keras), and enhanced engagement via gamification.",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Hugging Face",
+      "RAG",
+      "Pinecone",
+      "TensorFlow",
+      "Keras",
+      "LangChain",
+      "PostgreSQL",
+      "AI"
+    ],
+    "links": {
+      "github": "https://github.com/sohamyedgaonkar/cognilearn", // Replace with actual link if available
+      "demo": "#", // Replace with actual link if available
+      "details": "#" // Replace with link to project page/blog if available
+    }
+  }
+];
 
   return (
     <section id="projects" className="py-20 bg-muted/30">
