@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   const handleDownloadResume = () => {
-    // This is where you would add your resume file
-    const resumeUrl = "/path-to-your-resume.pdf"; // Update this with your actual resume path
+    // Use the correctly uploaded resume file
+    const resumeUrl = "/Soham_Yedgaonkar_SWE_Resume.pdf";
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.download = "Soham_Yedgaonkar_Resume.pdf"; // Update with your preferred filename
+    link.download = "Soham_Yedgaonkar_Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
