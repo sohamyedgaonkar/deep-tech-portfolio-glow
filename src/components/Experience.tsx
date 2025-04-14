@@ -3,50 +3,27 @@ import { Briefcase, CalendarDays, ChevronRight } from 'lucide-react';
 
 const Experience = () => {
   const experiences = [
-    {
-      title: 'Research Assistant Intern at CDAC-Pune',
-      date: 'July 2021 - June 2022',
-      company: 'CDAC-Pune',
-      description: [
-        'Designed and developed an autonomous solution for monitoring crowd with over 7 dense environments, achieving a 93% accuracy in object detection accuracy.',
-        'Integrated an internal deep learning system detecting motion integrated with ML and computer vision algorithms to enhance risk detection to 98%.',
-        'Collaborated with a team of CDAC scientists to detect real-to-use solutions, reducing model deployment time by 40%.',
-      ]
-    },
-    {
-      title: 'Natural Language Processing at Primacy',
-      date: 'Feb 2021 - Jun 2021',
-      company: 'Primacy',
-      description: [
-        'Developing and optimizing automated workflows for online payments thereby improving operational efficiency by 40%.',
-        'Developed Complex Data Pipelines in-flight GKMs using Tensorflow, Pytorch and GANS-based transformer based pre-trained models to find significant irregularities in customer finance data.',
-        'Integrating third-party APIs to streamline financial data validation, reducing manual effort by 95% using Docker and Kubernetes.',
-      ]
-    },
-    {
-      title: "Women's Safety Incident Reporting System",
-      date: '2021',
-      company: 'React, TypeScript, AI/Compute, Tensorflow, Computer Vision, MongoDB',
-      description: [
-        'Developed a real-time incident monitoring system using image processing and OCR algorithms for event location using heatmaps.',
-        'Integrated an AI-powered SoM System using NVIDIA API for parallel incident reporting, natural language processing, and collaborative response coordination.',
-        'Designed and implemented facial recognition systems using custom vision for real-time identity confirmation and accurate recognition, and anomaly detection with a accuracy of 95%',
-        'Designed and deployed a near PostgreSQL database with fast-level security for real-time data synchronization and secure messaging.',
-      ]
-    },
-    {
-      title: 'Healthcare Analytics Learning System',
-      date: '2021',
-      company: 'React, TypeScript, NodeJs, MongoDB',
-      description: [
-        'Achieved seamless integration of third-party APIs like OSM JavaScript API to enable interactive and visually detailed mapping features.',
-        'Developed a robust machine learning platform for personalized education based on user behavior and study data capturing over 1 million learning interactions from 5,000+ unique users.',
-        'Implemented a course recommendation system using TensorFlow and Keras, enhancing personalized learning paths, increasing course completion rates by 32%.',
-        'Built an analytics dashboard with integration APIs providing real-time performance metrics of students\' online environment.',
-        'Released exceptional tech gamification features like leaderboards, badges and peer learning features.',
-      ]
-    },
-  ];
+  {
+    "title": "Research and Development Intern",
+    "date": "July 2024 - Jan 2025",
+    "company": "CDAC-Pune",
+    "description": [
+      "Engineered and fine-tuned versatile computer vision models by experimenting with over 7 diverse architectures, achieving a 35% increase in object detection accuracy",
+      "Developed drone-based real-time noise monitoring system integrated with loT, cloud processing, and Al-driven analysis for noisy objects detection applications with intellectual log analysis bot",
+      "Collaborated with a team of CDAC scientists to deliver end-to-end solutions, reducing model deployment time by 30%"
+    ]
+  },
+  {
+    "title": "Software Engineering Intern",
+    "date": "Feb 2025 - Present",
+    "company": "Firmway",
+    "description": [
+      "Developing and optimizing automation workflows for complex commerce finance tasks, improving reconciliation efficiency by 40%",
+      "Automated Complex Data Pipelines to build scalable backend services, enhancing data processing speed for financial reports with 0 human intervention using Doctr, GMFT and TF-IDF",
+      "Integrating third-party APIs to streamline financial data validation, reducing manual efforts by 90% using Docker and FastAPI"
+    ]
+  }
+];
 
   return (
     <section id="experience" className="py-20 bg-muted/30">
