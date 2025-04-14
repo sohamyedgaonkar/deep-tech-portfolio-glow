@@ -60,7 +60,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-tech-purple to-tech-purple-dark rounded-xl blur-2xl opacity-20 animate-pulse-slow"></div>
             <div className="relative z-10 w-full h-full rounded-xl overflow-hidden border-2 border-tech-purple/50 tech-glow">
               <img
-                src="/lovable-uploads/a807ec56-e93c-42a4-a631-66ced1ff22cd.png"
+                src="/lovable-uploads/1000155466-removebg-preview.jpg"
                 alt="Soham Yedgaonkar"
                 className="w-full h-full object-cover"
               />
