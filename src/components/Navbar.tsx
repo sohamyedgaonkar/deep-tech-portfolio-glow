@@ -37,7 +37,7 @@ const Navbar = () => {
     },
     { 
       icon: Linkedin, 
-      href: 'https://linkedin.com/in/sohamyedgaonkar', 
+      href: 'https://www.linkedin.com/in/soham-yedgaonkar/', 
       label: 'LinkedIn',
       ariaLabel: 'Connect with me on LinkedIn'
     },
