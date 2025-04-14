@@ -55,21 +55,21 @@ const About = () => {
               <div className="flex">
                 <div className="w-16 text-tech-purple font-semibold">2023</div>
                 <div>
-                  <p className="font-medium">Winner - TechFest International Hackathon 2023</p>
+                  <p className="font-medium">Winner- TechFiesta International Hackathon 2025</p>
                 </div>
               </div>
               
               <div className="flex">
                 <div className="w-16 text-tech-purple font-semibold">2022</div>
                 <div>
-                  <p className="font-medium">AIR 1 - Runnerup-21 (TSEC DSAI)</p>
+                  <p className="font-medium">AIR 1- Brainathon’25 (CDAC Delhi)</p>
                 </div>
               </div>
               
               <div className="flex">
                 <div className="w-16 text-tech-purple font-semibold">2021</div>
                 <div>
-                  <p className="font-medium">DBMS Expert from Hacker Rank</p>
+                  <p className="font-medium">5x Hackathon Champion</p>
                 </div>
               </div>
               
@@ -83,7 +83,7 @@ const About = () => {
               <div className="flex">
                 <div className="w-16 text-tech-purple font-semibold">2017</div>
                 <div>
-                  <p className="font-medium">AIR 56 - Various MLE Advance Exams</p>
+                  <p className="font-medium"> AIR 160 / 75,000- Amazon ML Challenge</p>
                 </div>
               </div>
             </div>
@@ -94,7 +94,7 @@ const About = () => {
             </h3>
             
             <div className="flex flex-wrap gap-2">
-              {['Machine Learning', 'Data Science', 'AI', 'Full Stack Development', 'Finance', 'Algorithm Design'].map((interest) => (
+              {['Machine Learning', 'Data Science', 'AI', 'Full Stack Development', 'Algorithm Design'].map((interest) => (
                 <span key={interest} className="px-3 py-1 bg-muted rounded-full text-sm">
                   {interest}
                 </span>
