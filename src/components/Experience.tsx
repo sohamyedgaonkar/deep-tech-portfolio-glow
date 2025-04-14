@@ -42,7 +42,7 @@ const Experience = () => {
         'Achieved seamless integration of third-party APIs like OSM JavaScript API to enable interactive and visually detailed mapping features.',
         'Developed a robust machine learning platform for personalized education based on user behavior and study data capturing over 1 million learning interactions from 5,000+ unique users.',
         'Implemented a course recommendation system using TensorFlow and Keras, enhancing personalized learning paths, increasing course completion rates by 32%.',
-        'Built an analytics dashboard with integration APIs providing real-time performance metrics of students' online environment.',
+        'Built an analytics dashboard with integration APIs providing real-time performance metrics of students\' online environment.',
         'Released exceptional tech gamification features like leaderboards, badges and peer learning features.',
       ]
     },
