@@ -29,9 +29,24 @@ const Navbar = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/sohamyedgaonkar', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/sohamyedgaonkar', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:sohamyedgaonkar@gmail.com', label: 'Email' },
+    { 
+      icon: Github, 
+      href: 'https://github.com/sohamyedgaonkar', 
+      label: 'GitHub',
+      ariaLabel: 'Visit my GitHub profile'
+    },
+    { 
+      icon: Linkedin, 
+      href: 'https://linkedin.com/in/sohamyedgaonkar', 
+      label: 'LinkedIn',
+      ariaLabel: 'Connect with me on LinkedIn'
+    },
+    { 
+      icon: Mail, 
+      href: 'mailto:sohamyedgaonkar@gmail.com', 
+      label: 'Email',
+      ariaLabel: 'Send me an email'
+    },
   ];
 
   return (
@@ -63,7 +78,7 @@ const Navbar = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 text-foreground/70 hover:text-tech-purple transition-colors"
-                  aria-label={link.label}
+                  aria-label={link.ariaLabel}
                 >
                   <link.icon size={18} />
                 </a>
@@ -107,7 +122,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 text-foreground/70 hover:text-tech-purple transition-colors"
-                    aria-label={link.label}
+                    aria-label={link.ariaLabel}
                   >
                     <link.icon size={20} />
                   </a>

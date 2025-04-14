@@ -9,8 +9,8 @@ const Projects = () => {
       description: "Integrated AI system using NVIDIA API for parallel incident reporting, natural language processing, and collaborative response coordination.",
       tags: ["NVIDIA API", "Computer Vision", "NLP", "AI"],
       links: {
-        github: "#",
-        demo: "#",
+        github: "https://github.com/sohamyedgaonkar/ai-som-system",
+        demo: "https://ai-som-demo.example.com",
         details: "#",
       }
     },
@@ -19,8 +19,8 @@ const Projects = () => {
       description: "Machine learning platform for personalized education based on user behavior with over 1 million learning interactions from 5,000+ users.",
       tags: ["TensorFlow", "Keras", "React", "MongoDB"],
       links: {
-        github: "#",
-        demo: "#",
+        github: "https://github.com/sohamyedgaonkar/healthcare-analytics",
+        demo: "https://health-analytics-demo.example.com",
         details: "#",
       }
     },
@@ -29,8 +29,8 @@ const Projects = () => {
       description: "Solution for monitoring crowd with over 7 dense environments, achieving 93% accuracy in object detection using computer vision algorithms.",
       tags: ["Computer Vision", "ML", "Object Detection"],
       links: {
-        github: "#",
-        demo: "#",
+        github: "https://github.com/sohamyedgaonkar/crowd-monitoring",
+        demo: "https://crowd-monitor-demo.example.com",
         details: "#",
       }
     },
@@ -39,8 +39,8 @@ const Projects = () => {
       description: "Complex data pipelines using TensorFlow, PyTorch and GANS-based transformer models to find irregularities in financial data.",
       tags: ["TensorFlow", "PyTorch", "GANs", "Finance"],
       links: {
-        github: "#",
-        demo: "#",
+        github: "https://github.com/sohamyedgaonkar/financial-pipeline",
+        demo: "https://finance-pipeline-demo.example.com",
         details: "#",
       }
     },
@@ -49,8 +49,8 @@ const Projects = () => {
       description: "System using image processing and OCR algorithms for event location with heatmap visualization and reporting.",
       tags: ["Image Processing", "OCR", "React", "MongoDB"],
       links: {
-        github: "#",
-        demo: "#",
+        github: "https://github.com/sohamyedgaonkar/incident-monitor",
+        demo: "https://incident-monitor-demo.example.com",
         details: "#",
       }
     },
@@ -59,8 +59,8 @@ const Projects = () => {
       description: "Optimized automated workflows for online payments, improving operational efficiency by 40% with secure transaction processing.",
       tags: ["Automation", "Payments", "Workflow"],
       links: {
-        github: "#",
-        demo: "#",
+        github: "https://github.com/sohamyedgaonkar/payment-workflow",
+        demo: "https://payment-workflow-demo.example.com",
         details: "#",
       }
     },
@@ -102,17 +102,17 @@ const Projects = () => {
               
               <div className="flex space-x-2 mt-auto">
                 <Button variant="ghost" size="icon" className="h-8 w-8" asChild>
-                  <a href={project.links.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                  <a href={project.links.github} target="_blank" rel="noopener noreferrer" aria-label={`GitHub repository for ${project.title}`}>
                     <Github size={16} />
                   </a>
                 </Button>
                 <Button variant="ghost" size="icon" className="h-8 w-8" asChild>
-                  <a href={project.links.demo} target="_blank" rel="noopener noreferrer" aria-label="Live Demo">
+                  <a href={project.links.demo} target="_blank" rel="noopener noreferrer" aria-label={`Live demo for ${project.title}`}>
                     <ExternalLink size={16} />
                   </a>
                 </Button>
                 <Button variant="ghost" size="icon" className="h-8 w-8" asChild>
-                  <a href={project.links.details} target="_blank" rel="noopener noreferrer" aria-label="Project Details">
+                  <a href={project.links.details} target="_blank" rel="noopener noreferrer" aria-label={`Project details for ${project.title}`}>
                     <FileText size={16} />
                   </a>
                 </Button>

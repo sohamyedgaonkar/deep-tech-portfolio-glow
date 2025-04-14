@@ -1,8 +1,19 @@
 
-import { ArrowDown, Terminal } from 'lucide-react';
+import { ArrowDown, Terminal, Download } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
+  const handleDownloadResume = () => {
+    // This is where you would add your resume file
+    const resumeUrl = "/path-to-your-resume.pdf"; // Update this with your actual resume path
+    const link = document.createElement('a');
+    link.href = resumeUrl;
+    link.download = "Soham_Yedgaonkar_Resume.pdf"; // Update with your preferred filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="min-h-screen relative flex items-center py-20 grid-tech-pattern overflow-hidden">
       {/* Decorative elements */}
@@ -27,11 +38,19 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center md:justify-start">
-            <Button className="bg-tech-purple hover:bg-tech-purple-dark text-white">
+            <Button 
+              className="bg-tech-purple hover:bg-tech-purple-dark text-white"
+              onClick={handleDownloadResume}
+            >
+              <Download size={16} className="mr-2" />
               Download Resume
             </Button>
-            <Button variant="outline" className="border-tech-purple text-tech-purple">
-              Contact Me
+            <Button 
+              variant="outline" 
+              className="border-tech-purple text-tech-purple"
+              asChild
+            >
+              <a href="#contact">Contact Me</a>
             </Button>
           </div>
         </div>
