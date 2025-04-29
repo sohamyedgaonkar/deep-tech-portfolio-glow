@@ -39,8 +39,8 @@ const About = () => {
                 <div className="absolute w-3 h-3 bg-tech-purple rounded-full -left-[6.5px] top-1.5"></div>
                 <h4 className="text-lg font-medium mb-1">Senior And Co-Curricular</h4>
                 <p className="text-sm text-foreground/70">Technologies & Domains: Data Science, Machine Learning, AI/General Intelligence, MLOps, CI/CD</p>
-                <p className="text-sm text-foreground/70">Languages: Python (proficient), C/C++, Java, Rust, JavaScript, TypeScript/HTML/CSS, MySQL.</p>
-                <p className="text-sm text-foreground/70">OS: iOS, Windows, Kali Linux, Raspberry Pi, Ubuntu, Linux, Debian, Mint, Arch/Manjaro.</p>
+                <p className="text-sm text-foreground/70">Languages: Python (proficient), C/C++, Java, JavaScript, TypeScript/HTML/CSS, MySQL.</p>
+                <p className="text-sm text-foreground/70">OS: iOS, Windows Linux, Ubuntu, Linux, Debian</p>
               </div>
             </div>
           </div>
@@ -53,35 +53,35 @@ const About = () => {
             
             <div className="space-y-4">
               <div className="flex">
-                <div className="w-16 text-tech-purple font-semibold">2023</div>
+                <div className="w-16 text-tech-purple font-semibold">2025</div>
                 <div>
                   <p className="font-medium">Winner- TechFiesta International Hackathon 2025</p>
                 </div>
               </div>
               
               <div className="flex">
-                <div className="w-16 text-tech-purple font-semibold">2022</div>
+                <div className="w-16 text-tech-purple font-semibold">2025</div>
                 <div>
                   <p className="font-medium">AIR 1- Brainathon’25 (CDAC Delhi)</p>
                 </div>
               </div>
               
               <div className="flex">
-                <div className="w-16 text-tech-purple font-semibold">2021</div>
+                <div className="w-16 text-tech-purple font-semibold">2025</div>
                 <div>
                   <p className="font-medium">5x Hackathon Champion</p>
                 </div>
               </div>
               
               <div className="flex">
-                <div className="w-16 text-tech-purple font-semibold">2021</div>
+                <div className="w-16 text-tech-purple font-semibold">2024</div>
                 <div>
                   <p className="font-medium">Top Machine Learning Voice on LinkedIn</p>
                 </div>
               </div>
               
               <div className="flex">
-                <div className="w-16 text-tech-purple font-semibold">2017</div>
+                <div className="w-16 text-tech-purple font-semibold">2024</div>
                 <div>
                   <p className="font-medium"> AIR 160 / 75,000- Amazon ML Challenge</p>
                 </div>
