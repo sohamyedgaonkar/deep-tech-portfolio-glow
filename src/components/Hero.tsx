@@ -34,7 +34,7 @@ const Hero = () => {
           
           <p className="text-lg md:text-xl text-foreground/80 max-w-2xl">
             B.E. Information Technology professional specializing in Machine Learning, AI, and Full Stack Development.
-            Currently focused on creating innovative solutions at the intersection of technology and finance.
+            Currently focused on creating innovative solutions at the intersection of AI and Innovation
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center md:justify-start">
