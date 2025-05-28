@@ -6,7 +6,7 @@ const Skills = () => {
     {
       name: 'Programming Languages',
       icon: <Code className="text-tech-purple" size={24} />,
-      skills: ['Python', 'C/C++', 'JavaScript', 'TypeScript', 'Java', 'Rust', 'SQL'],
+      skills: ['Python', 'C/C++', 'JavaScript', 'TypeScript', 'Java', 'SQL'],
     },
     {
       name: 'Machine Learning & AI',
@@ -26,7 +26,7 @@ const Skills = () => {
     {
       name: 'Databases',
       icon: <Database className="text-tech-purple" size={24} />,
-      skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'Redis', 'SQLite'],
+      skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'Elastic Search'],
     },
     {
       name: 'DevOps & Tools',
